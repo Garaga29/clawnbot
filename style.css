@@ -301,3 +301,11 @@ body::after {
 .content {
   padding-bottom: 40px;
 }
+html, body {
+  overflow-x: hidden;
+}
+
+body *::before,
+body *::after {
+  content: none !important;
+}
