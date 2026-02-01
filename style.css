@@ -425,3 +425,29 @@ body *::after {
   color: #666;
   cursor: not-allowed;
 }
+.social-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 8px;
+  font-size: 14px;
+}
+
+.social-x .label {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(0, 224, 184, 0.15);
+  color: #00e0b8;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.social-x a {
+  color: #00e0b8;
+  text-decoration: none;
+}
+
+.social-x a:hover {
+  text-decoration: underline;
+}
