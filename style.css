@@ -358,3 +358,69 @@ body *::after {
   font-size: 14px;
   color: #d0d6da;
 }
+/* wrapper */
+.notify-module {
+  max-width: 720px;
+  margin: 0 auto 40px; /* sebelumnya terlalu jauh */
+  padding: 0 20px;
+}
+
+/* frame box */
+.notify-frame {
+  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
+  border: 1px solid rgba(0, 224, 184, 0.25);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 0 28px rgba(0, 224, 184, 0.08);
+}
+
+/* title */
+.notify-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #00e0b8;
+  margin-bottom: 14px;
+}
+
+/* dot */
+.notify-title .dot {
+  width: 8px;
+  height: 8px;
+  background: #00e0b8;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 224, 184, 0.6);
+}
+
+/* form */
+.notify-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.notify-form input {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+  background: #2a2a2a;
+  color: #bbb;
+}
+
+.notify-form input::placeholder {
+  color: #888;
+}
+
+.notify-form button {
+  padding: 0 20px;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+  background: #1f1f1f;
+  color: #666;
+  cursor: not-allowed;
+}
