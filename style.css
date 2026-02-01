@@ -202,3 +202,34 @@ button,
   color: #b5b5b5;
   line-height: 1.8;
 }
+.list {
+  padding-left: 18px;
+  margin-top: 12px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #b5b5b5;
+}
+.roadmap {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.step {
+  background: linear-gradient(180deg, #121212, #0d0d0d);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-left: 4px solid #00e0b8;
+  padding: 16px 18px;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #d0d0d0;
+}
+.footer {
+  text-align: center;
+  padding: 60px 20px 40px;
+  font-size: 13px;
+  color: #666;
+}
