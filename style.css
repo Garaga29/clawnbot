@@ -144,3 +144,7 @@ body {
   padding: 30px 10px;
   color: #555;
 }
+.switch {
+  position: relative;
+  z-index: 10; /* bikin tombol bisa diklik */
+}
