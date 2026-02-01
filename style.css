@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0b0d10;
+  color: #eaeaea;
+}
+
+.topbar {
+  padding: 14px 20px;
+  border-bottom: 1px solid #1c1f26;
+}
+
+.logo span {
+  color: #ff3b3b;
+  font-weight: 700;
+}
+
+.logo small {
+  background: #1abc9c;
+  color: #000;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.mascot {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #ff3b3b;
+}
+
+.muted {
+  color: #6affc7;
+}
+
+.cta {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  margin: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #1abc9c;
+  color: #000;
+}
+
+.secondary {
+  background: #1c1f26;
+  color: #aaa;
+}
+
+.join {
+  margin: 40px 20px;
+  padding: 24px;
+  border: 1px solid #1abc9c;
+  border-radius: 14px;
+}
+
+.tabs {
+  margin-bottom: 12px;
+}
+
+.tab {
+  background: #1c1f26;
+  border: none;
+  color: #aaa;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.tab.active {
+  background: #1abc9c;
+  color: #000;
+}
+
+.code {
+  background: #000;
+  padding: 14px;
+  border-radius: 10px;
+  color: #6affc7;
+  overflow-x: auto;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.wide {
+  width: 100%;
+  max-width: 320px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  color: #666;
+}
