@@ -185,19 +185,15 @@ button,
 .content {
   max-width: 720px;
   margin: 0 auto;
-  padding: 100px 20px 60px;
+  padding: 60px 20px 40px; /* sebelumnya terlalu besar */
 }
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 48px; /* dari 80px → 48px */
 }
-
 .section h2 {
-  font-size: 15px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #00e0b8;
-  margin-bottom: 14px;
-  text-shadow: 0 0 12px rgba(0, 224, 184, 0.25);
+  font-size: 14px;
+  letter-spacing: 0.12em; /* dipadatkan */
+  margin-bottom: 10px;
 }
 
 .section p,
@@ -217,20 +213,12 @@ button,
   color: #b5b5b5;
 }
 .roadmap {
-  margin-top: 24px;
-  display: grid;
-  gap: 16px;
+  margin-top: 16px;
+  gap: 12px;
 }
-
 .step {
-  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
-  border: 1px solid rgba(0, 224, 184, 0.25);
-  border-left: 4px solid #00e0b8;
-  padding: 18px 18px;
-  border-radius: 14px;
+  padding: 14px 16px; /* lebih compact */
   font-size: 14px;
-  color: #cfd8dc;
-  box-shadow: 0 0 24px rgba(0, 224, 184, 0.08);
 }
 .footer {
   text-align: center;
