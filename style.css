@@ -289,3 +289,7 @@ button,
   color: #777;
   cursor: not-allowed;
 }
+body::before,
+body::after {
+  content: none !important;
+}
