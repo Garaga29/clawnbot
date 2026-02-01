@@ -64,9 +64,18 @@ body {
   cursor: pointer;
 }
 
-.btn.red {
-  background: #e11d2e;
-  color: #fff;
+.btn.green {
+  background: #00e0b8;
+  color: #000;
+}
+
+.btn.dark {
+  background: #1c1f26;
+  color: #aaa;
+}
+
+.btn.active {
+  outline: 2px solid #00e0b8;
 }
 
 .btn.dark {
