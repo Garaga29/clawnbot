@@ -50,10 +50,10 @@ body {
 }
 
 .switch {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 12px;
-  justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .btn {
@@ -79,9 +79,11 @@ body {
 }
 
 .card {
+  position: relative;
+  z-index: 1;
   background: #111;
   border-radius: 18px;
-  padding: 24px;
+  padding: 28px;
   border: 2px solid #00e0b8;
 }
 
@@ -124,12 +126,6 @@ body {
 }
 
 /* glow cursor feeling */
-.code::after {
-  content: "▍";
-  margin-left: 4px;
-  color: #00e0b8;
-  animation: blink 1.2s infinite;
-}
 
 @keyframes blink {
   0%, 50% { opacity: 1; }
