@@ -192,14 +192,18 @@ button,
 }
 
 .section h2 {
-  font-size: 26px;
-  margin-bottom: 16px;
-  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #00e0b8;
+  margin-bottom: 14px;
+  text-shadow: 0 0 12px rgba(0, 224, 184, 0.25);
 }
 
-.section p {
-  font-size: 16px;
-  color: #b5b5b5;
+.section p,
+.list li {
+  font-size: 15px;
+  color: #9aa0a6;
   line-height: 1.8;
 }
 .list {
@@ -213,19 +217,20 @@ button,
   color: #b5b5b5;
 }
 .roadmap {
+  margin-top: 24px;
   display: grid;
-  gap: 14px;
-  margin-top: 20px;
+  gap: 16px;
 }
 
 .step {
-  background: linear-gradient(180deg, #121212, #0d0d0d);
-  border: 1px solid rgba(255,255,255,0.05);
+  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
+  border: 1px solid rgba(0, 224, 184, 0.25);
   border-left: 4px solid #00e0b8;
-  padding: 16px 18px;
-  border-radius: 12px;
-  font-size: 15px;
-  color: #d0d0d0;
+  padding: 18px 18px;
+  border-radius: 14px;
+  font-size: 14px;
+  color: #cfd8dc;
+  box-shadow: 0 0 24px rgba(0, 224, 184, 0.08);
 }
 .footer {
   text-align: center;
@@ -292,4 +297,7 @@ button,
 body::before,
 body::after {
   content: none !important;
+}
+.content {
+  padding-bottom: 40px;
 }
