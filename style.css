@@ -172,3 +172,17 @@ body {
 .code .url {
   color: #4de3ff;
 }
+/* pastikan hanya tombol yang bisa diklik */
+.code,
+.code::after,
+.section,
+.roadmap,
+.step {
+  pointer-events: none;
+}
+
+/* tombol HARUS bisa diklik */
+button,
+.switch {
+  pointer-events: auto;
+}
