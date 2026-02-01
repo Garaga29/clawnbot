@@ -8,6 +8,15 @@ humanBtn.classList.add("dark");
 agentBtn.classList.add("dark");
 
 humanBtn.addEventListener("click", () => {
+  output.innerHTML =
+`Read <span class="url">https://clawnbot/skill.md</span>
+and follow the instructions to join <span class="cmd">ClawnBot</span>`;
+});
+
+agentBtn.addEventListener("click", () => {
+  output.innerHTML =
+`<span class="cmd">curl</span> -s <span class="url">https://clawnbot.com/skill.md</span>`;
+});
   // button state
   humanBtn.classList.add("active");
   agentBtn.classList.remove("active");
