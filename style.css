@@ -297,3 +297,64 @@ body *::before,
 body *::after {
   content: none !important;
 }
+/* container */
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 40px;
+  display: grid;
+  gap: 32px;
+}
+
+/* module frame */
+.module {
+  background: linear-gradient(180deg, #0e0e0e, #090909);
+  border: 1px solid rgba(0, 224, 184, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 0 32px rgba(0, 224, 184, 0.08);
+  overflow: hidden;
+}
+
+/* title box */
+.module-title {
+  padding: 14px 18px;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #00e0b8;
+  background: rgba(0, 224, 184, 0.08);
+  border-bottom: 1px solid rgba(0, 224, 184, 0.25);
+}
+
+/* body */
+.module-body {
+  padding: 18px;
+  font-size: 15px;
+  color: #b0b7bd;
+  line-height: 1.8;
+}
+
+/* list */
+.module-list {
+  padding-left: 18px;
+}
+
+.module-list li {
+  margin-bottom: 8px;
+}
+
+/* roadmap items */
+.roadmap {
+  display: grid;
+  gap: 12px;
+}
+
+.roadmap-item {
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #0b0b0b;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-left: 4px solid #00e0b8;
+  font-size: 14px;
+  color: #d0d6da;
+}
